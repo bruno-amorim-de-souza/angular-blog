@@ -1,30 +1,20 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://www.correiodopovo.com.br/image/policy:1.836370:1654687697/One-Piece.png?f=2x1&$p$f=cdcf20e&w=720&$w=3b33d2d"
-      alt=""
-      height="200px"
-      srcset=""
-    />
+    <img src="{{ photoCover }}" alt="" height="200px" srcset="" />
   </div>
 
   <a href="http://"></a>
 
   <div class="big-card__title">
-    <h1><a href="#">Título da notícia</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo
-        ipsum nisl. Sed est lectus, semper a tristique feugiat, commodo in ex.
-        Donec leo nisl, mattis vel magna vitae, elementum volutpat erat.
-        Maecenas in tortor maximus, pharetra nibh a, fermentum orci. Sed
-        volutpat est sed interdum ornare. Morbi et odio leo. Morbi ex sapien,
-        ultricies et risus sit amet, consequat ultrices diam. Integer dapibus mi
-        eros. Praesent tincidunt sed ligula at blandit. Morbi hendrerit dolor at
-        maximus dignissim. Maecenas pharetra aliquet tortor a pulvinar.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
